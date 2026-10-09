@@ -8,11 +8,11 @@ A ComfyUI custom node for cleaning alpha channels on individual RGB/RGBA images.
 
 - **Image** — RGB or RGBA image.
 - **Maximum** — Alpha values above this threshold are set to `255`.
-  - Default: `250`
+  - Default: `240`
   - Range: `0–255`
   - Set to `255` to disable.
 - **Minimum** — Alpha values below this threshold are set to `0`.
-  - Default: `5`
+  - Default: `15`
   - Range: `0–255`
   - Set to `0` to disable.
 - **Convert to RGB** — If enabled, removes the alpha channel when every pixel is fully opaque (`255`).
